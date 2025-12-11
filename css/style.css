@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background:#0e1628;
+  color:white;
+  text-align:center;
+}
+
+/* HEADER */
+.hero{
+  background:linear-gradient(to right,#0b76ef,#001f54);
+  padding:60px 20px;
+}
+
+/* PROFILE */
+.profile{
+  padding:40px 20px;
+}
+.profile img{
+  border-radius:50%;
+  width:120px;
+}
+
+/* PORTFOLIO */
+.portfolio{
+  background:#101827;
+  padding:50px 20px;
+}
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  gap:15px;
+  max-width:600px;
+  margin:auto;
+}
+.card{
+  background:#0b76ef;
+  padding:20px;
+  border-radius:10px;
+}
+
+/* BLOG */
+.blog{
+  padding:50px 20px;
+}
+.post{
+  background:#1a2238;
+  margin:15px auto;
+  padding:20px;
+  border-radius:10px;
+  max-width:600px;
+}
+
+/* CONTACT */
+.contact{
+  background:#0b1220;
+  padding:50px 20px;
+}
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  background:#0b76ef;
+  color:white;
+  padding:12px 30px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+  background:#020617;
+  padding:20px;
+  font-size:14px;
+  opacity:0.6;
+}
