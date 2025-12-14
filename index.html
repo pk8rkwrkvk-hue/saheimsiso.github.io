@@ -3,15 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Saheim Siso | Official Website</title>
+  <title>Saheim Siso | Official Website - Computer Science & Digital Creator</title>
+  <meta name="description" content="Saheim Siso - Official website. Computer Science student, Digital Creator, Web Developer from Zanzibar, Tanzania. Check out my projects and skills.">
+  <meta name="keywords" content="Saheim Siso, Computer Science, Web Developer, Cybersecurity, Digital Creator, Zanzibar, Tanzania">
+  <meta name="author" content="Saheim Siso">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph (Social Media & YouTube) -->
+  <meta property="og:title" content="Saheim Siso | Official Website">
+  <meta property="og:description" content="Saheim Siso - Computer Science student and Digital Creator from Zanzibar, Tanzania">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630">
+  <meta property="og:url" content="https://saheimsiso.github.io">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sw_TZ">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Saheim Siso">
+  <meta name="twitter:description" content="Computer Science & Digital Creator from Zanzibar">
+  <meta name="twitter:image" content="https://via.placeholder.com/1200x630">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://saheimsiso.github.io">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://via.placeholder.com/32" sizes="32x32">
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
+</head>
 </head>
 <body>
 
-<!-- HEADER (Business Style) -->
+<!-- HEADER (Business Style) + Navigation -->
 <header class="hero">
-  <h1>Saheim Siso</h1>
-  <p>Official Website • Computer Science • Digital Creator</p>
+  <div class="container">
+    <nav class="main-nav">
+      <a class="logo" href="/">Saheim Siso</a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Saheim Siso</h1>
+      <p>Official Website • Computer Science • Digital Creator</p>
+    </div>
+  </div>
 </header>
 
 <!-- PROFILE (Social Media Style) -->
@@ -49,15 +89,46 @@
 <!-- CONTACT -->
 <section class="contact">
   <h2>Contact Me</h2>
-  <p>Email: saheimsiso23@gmail.com</p><p><gmail:Saheimzakhran></gmail:Saheimzakhran></p>
+  <p>Email: <a href="mailto:saheimsiso23@gmail.com">saheimsiso23@gmail.com</a></p>
+  <p>Email: <a href="mailto:saheimzakhran@gmail.com">saheimzakhran@gmail.com</a></p>
   <p>Phone: +255 779 503 411</p>
 
-  <a class="btn" href="https://wa.me/255779503411" target="_blank">WhatsApp Me</a>
+  <div class="social-links">
+    <a class="btn" href="https://wa.me/255779503411" target="_blank">WhatsApp</a>
+    <a class="btn" href="https://instagram.com/saheimsiso" target="_blank">Instagram</a>
+    <a class="btn" href="https://youtube.com/@saheimsiso" target="_blank">YouTube</a>
+  </div>
 </section>
 
 <footer>
   <p>© 2025 Saheim Siso. All Rights Reserved.</p>
 </footer>
 
+<!-- JSON-LD Schema for Search Engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Saheim Siso",
+  "url": "https://saheimsiso.github.io",
+  "email": ["saheimsiso23@gmail.com", "saheimzakhran@gmail.com"],
+  "telephone": "+255779503411",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Zanzibar Town",
+    "addressRegion": "Zanzibar",
+    "addressCountry": "TZ"
+  },
+  "jobTitle": "Computer Science Student, Digital Creator",
+  "description": "Web Developer and Digital Creator from Zanzibar, Tanzania",
+  "knowsAbout": ["Web Development", "Cybersecurity", "Computer Science"],
+  "sameAs": [
+    "https://instagram.com/saheimsiso",
+    "https://youtube.com/@saheimsiso",
+    "https://wa.me/255779503411"
+  ]
+}
+</script>
+
 </body>
-</html>
+ 
